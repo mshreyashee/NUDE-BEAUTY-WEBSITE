@@ -1,0 +1,332 @@
+
+#navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
+}
+#signUp{
+    float: right;
+    margin-right: 10px;
+}
+.login{
+   margin: 10px 10px;
+   border: none;
+   padding: 10px 20px;
+   background-color: rgb(221, 173, 126);
+   border-radius: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: 16px;
+}
+.login:hover{
+    background-color: black;
+    color: white;
+}
+/* #body{
+    position: sticky;
+    top: 50px;
+} */
+#top{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(251, 227, 205);
+    padding: 8px 0px;
+    font-size: 13px;
+}
+#nude{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+.nav ul li{
+    list-style-type: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    padding: 0px 10px;
+   
+}
+#home{
+    margin-left: 28rem;
+    color: rgb(234, 170, 109);
+}
+#overlay-image{
+    position: relative;
+    opacity: 0.9;
+}
+#overlay-text{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.704);
+    top: 40%;
+    left: 23%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#second-row{
+    display:flex ;
+    padding: 5px 0px;
+    margin: 0;
+}
+#girl{
+    padding-right: 12px;
+}
+#third-row-first-img{
+    position: relative;
+}
+#third-row-first{
+    position: absolute;
+    top: 30%;
+    left: 13%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.874);   
+}
+#third-row-second-img{
+    position: relative;
+}
+#third-row-second{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.704);   
+}
+#forth-row{
+    display: flex;
+    /* padding: 5px 5px; */
+}
+.forth-row-imgs{
+    padding: 0px 5px;
+}
+.forth-row-text{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 10px;
+}
+#fifth-row-first-img{
+    position: relative;
+}
+#fifth-row-first{
+    position: absolute;
+    top: 25%;
+    left: 24%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.704);  
+    
+}
+#fifth-row{
+    display: flex;
+    margin: 10px 5px;
+    justify-content: space-between;
+}
+#fifth-row-second-img{
+    position: relative;
+}
+#fifth-row-second{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.704);
+}
+#sixth-div{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(0, 0, 0, 0.704);
+    padding: 10px 0px;
+}
+#seventh-row{
+    display: flex;
+    justify-content: space-between;
+}
+#footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(192, 186, 186, 0.525);
+}
+.hl{
+    margin-top: 20px;
+    /* margin-bottom: 50px; */
+    border-top: 3px solid black;
+    width: 1330px;
+}
+#footer-mail{
+    border: none;
+}
+.hl2{
+    border-top: 1px solid black;
+    width: 300px;
+    margin: 5px 0px;
+}
+#footer-first{
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+#footer-btn{
+    border: 2px solid black;
+    padding: 5px 105px;
+    background-color: white;
+    margin-top: 5px;
+}
+.fa-envelope{
+    padding: 0px 5px;
+    color: gray;
+}
+.vl{
+    border-left: 4px solid black;
+    height: 100px;
+    margin-top: 40px;
+}
+.footer-end ul li{
+  list-style-type: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 15px;
+}
+#footer-ends{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+
+        /* SIGN-UP FORM */
+        #SignIn{
+            height: 500px;
+            background-color: rgb(191, 149, 106);
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding : 70px 0px;
+            /* display : none; */
+        }
+        #SignIn1{
+            display : none;
+        }
+        #registerBtn{
+            text-align: center;
+            margin-top: 10px;
+            margin-left: 30px;
+            border: none;
+            padding: 10px 20px;
+            background-color: rgb(248, 190, 131);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             font-size: 16px;
+             border-radius: 5px;
+        }
+        #registerBtn:hover{
+            background-color: black;
+            color: wheat;
+        }
+        #form1{
+            height: 480px;
+            background-color: white;
+            width: 500px;
+            text-align: center;
+            padding-top: 1rem;
+        }
+        #registerh4{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             font-size: 20px;
+        }
+        #registerh1{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+             font-size: 40px;
+        }
+        .registerFields{
+          border: none;
+          background-color: rgb(247, 227, 188);
+          color: black;
+          font-size: 16px;
+          font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+          padding: 5px 25px;
+        }
+        #closebtn{
+            font-size: 30px;
+            margin-top: -20px;
+            background-color: rgb(245, 244, 242);
+            border-radius: 50%;
+            padding: 5px;
+            margin-left: -10px;
+        }
+
+          /* LOGIN-FORM */
+          #form2{
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+            background-color: rgb(254, 211, 219);  
+            padding: 0px 30px;
+            padding-top: 40px;
+        }
+          #LogInh1{
+            font-family: cursive;
+            color: rgb(222, 114, 222);
+          }
+          #SignInList li{
+            list-style-type: none;
+            display: inline;
+            margin: 8px 12px;
+          }
+          #LogIn{
+            display: flex;
+            justify-content: center;
+          }
+          #LogIn1{
+            height: 565px;
+            padding-top: 70px;
+            background-color: beige;
+            display: none;
+          }
+          #LogInh3{
+            font-size: 23px;
+          }
+          #LogInp{
+            font-size: 18px;
+          }
+          #SignInform{
+            padding: 15px 0px;
+          }
+          .fa-solid{
+            color: gray;
+            padding: 5px 10px;
+          }
+          #SignInSpan{
+            color: rgb(185, 82, 185);
+            font-size: 18px;
+          }
+          .fa-facebook-f, .fa-google, .fa-instagram, .fa-twitter{
+            border: 2px solid gray;
+            padding: 7px;
+            border-radius: 50%;
+          }
+          .fa-facebook-f{
+            color: blue;
+          }
+        .fa-google{
+            color: rgb(18, 18, 142);
+        }
+        .fa-instagram{
+            color: purple;
+        }
+        .fa-twitter{
+            color: rgb(20, 91, 198);
+        }
+        #SignInInput{
+            padding: 5px 15px;
+            border: 2px solid gray;
+            border-radius: 20px;
+            font-size: 15px;
+            color: black;
+        }
+        #SignInbtn{
+            background-color: rgb(238, 154, 238);
+            border: none;
+            padding: 5px 30px;
+            border-radius: 20px;
+        }
+        #SignInbtn:hover{
+            background-color: black;
+            color: white;
+        }
+       
